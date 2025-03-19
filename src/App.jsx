@@ -34,7 +34,11 @@ function App() {
       </div>
       <CardList anime="frieren" onClick={handleClick} />
       <footer className="footer">
-        images taken from <a href="https://anilist.co/"> anilist </a> api
+        images taken from{" "}
+        <a href="https://anilist.co/" target="_blank">
+          anilist
+        </a>
+        api
       </footer>
     </ApolloProvider>
   );
